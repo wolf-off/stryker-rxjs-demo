@@ -1,0 +1,33 @@
+{
+  "name": "stryker-rxjs-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^12.12.12",
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.4.1",
+    "rxjs": "^6.5.3",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-spec-reporter": "0.0.32",
+    "karma-typescript": "^4.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolf-off/stryker-rxjs-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolf-off/stryker-rxjs-demo/issues"
+  },
+  "homepage": "https://github.com/wolf-off/stryker-rxjs-demo#readme",
+  "description": ""
+}
