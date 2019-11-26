@@ -17,7 +17,7 @@
     "pretty": true,
     "strictNullChecks": true,
     "noImplicitReturns": true,
-    "noUnusedParameters": true,
+    "noUnusedParameters": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,

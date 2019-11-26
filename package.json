@@ -11,6 +11,10 @@
     "typescript": "^2.8.3"
   },
   "devDependencies": {
+    "@stryker-mutator/core": "^2.4.0",
+    "@stryker-mutator/jasmine-framework": "^2.4.0",
+    "@stryker-mutator/karma-runner": "^2.4.0",
+    "@stryker-mutator/typescript": "^2.4.0",
     "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^2.0.1",
     "karma-spec-reporter": "0.0.32",

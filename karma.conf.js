@@ -20,18 +20,18 @@ module.exports = function(config) {
     karmaTypescriptConfig: {
       tsconfig: "./tsconfig.json",
     },
-    client: {
-      clearContext: false
-    },
+    // client: {
+    //   clearContext: false
+    // },
     files: [ { pattern: '*.ts' }, { pattern: '*.spec.ts' } ],
     preprocessors: {
       '*.ts': [ 'karma-typescript' ],
-      //'*.spec.ts': [ 'karma-typescript' ]
+      '*.spec.ts': [ 'karma-typescript' ]
     },
     reporters: [ 'progress', 'spec', 'karma-typescript' ],
     colors: true,
-    logLevel: config.LOG_INFO,
-    autoWatch: true,
+    logLevel: config.LOG_DISABLE,
+    autoWatch: false,
     browsers: [ 'Chrome' ],
     singleRun: true
   })
